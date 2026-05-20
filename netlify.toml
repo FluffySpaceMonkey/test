@@ -1,0 +1,22 @@
+[images]
+remote_images = ["https://images\\.unsplash\\.com/.*", "https://cdn\\.discordapp\\.com/.*"]
+
+[[headers]]
+  for = "/"
+  [headers.values]
+    Netlify-CDN-Cache-Control = "public, max-age=0, stale-while-revalidate=86400"
+
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Netlify-CDN-Cache-Control = "public, max-age=0, stale-while-revalidate=86400"
+
+[[headers]]
+  for = "/*.css"
+  [headers.values]
+    Cache-Control = "public, max-age=86400"
+
+[[headers]]
+  for = "/*.js"
+  [headers.values]
+    Cache-Control = "public, max-age=86400"
