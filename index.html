@@ -16,6 +16,7 @@
             <li><a href="#skills">Skills</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#experience">Experience</a></li>
+            <li><a href="#life">Life</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
         <button class="mobile-menu-btn" onclick="toggleMenu()">☰</button>
@@ -28,29 +29,35 @@
             <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
             <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
             <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="#life" onclick="toggleMenu()">Life</a></li>
             <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
         </ul>
     </div>
 
     <section class="hero" id="home">
         <div class="container">
-            <div class="hero-content">
-                <div class="hero-label">Chemical Engineering / Research</div>
-                <h1>
-                    Building things<br>that <em>matter</em>.
-                </h1>
-                <p class="hero-desc">
-                    I'm an incoming Chemical Engineering student at the University of Toronto.
-                    I care about clean energy, sustainable processes, and the kind of science
-                    that actually helps people.
-                </p>
-                <div class="hero-meta">
-                    <span>Toronto, ON</span>
-                    <span>Incoming UofT</span>
+            <div class="hero-inner">
+                <div class="hero-content">
+                    <div class="hero-label">Chemical Engineering / Research</div>
+                    <h1>
+                        Building things<br>that <em>matter</em>.
+                    </h1>
+                    <p class="hero-desc">
+                        I'm an incoming Chemical Engineering student at the University of Toronto.
+                        I care about clean energy, sustainable processes, and the kind of science
+                        that actually helps people.
+                    </p>
+                    <div class="hero-meta">
+                        <span>Toronto, ON</span>
+                        <span>Incoming UofT</span>
+                    </div>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">See my work</a>
+                        <a href="#contact" class="btn btn-secondary">Get in touch</a>
+                    </div>
                 </div>
-                <div class="hero-buttons">
-                    <a href="#projects" class="btn btn-primary">See my work</a>
-                    <a href="#contact" class="btn btn-secondary">Get in touch</a>
+                <div class="hero-photo fade-in">
+                    <img src="photo-portrait.jpg" alt="Reena Wu">
                 </div>
             </div>
         </div>
@@ -61,9 +68,9 @@
             <div class="about-grid">
                 <div class="about-left fade-in">
                     <div class="about-image-wrapper">
-                        <img src="https://cdn.discordapp.com/attachments/815423455335809075/1506531363799699618/IMG_5838.jpg?ex=6a0e9a2b&is=6a0d48ab&hm=928cc9dc2d406dea56a19151b60bcff5957a0e916acc626773f9ce39d5e193dc&" alt="Reena Wu">
+                        <img src="photo-cafe.jpg" alt="Matcha and coffee at a cafe">
                     </div>
-                    <p class="about-caption">Toronto, 2024</p>
+                    <p class="about-caption">Current obsession: perfecting the matcha latte</p>
                 </div>
                 <div class="about-content fade-in">
                     <div class="section-header" style="margin-bottom: 24px;">
@@ -82,8 +89,9 @@
                         problems that determine what kind of world we leave behind.
                     </p>
                     <p>
-                        When I'm not in the lab, I'm probably hiking, overthinking my coffee
-                        brewing method, or sending my friends way too many chemistry memes.
+                        When I'm not in the lab, I'm probably at a cafe with friends,
+                        overthinking my coffee brewing method, or exploring the city.
+                        I believe the best ideas come when you're not trying to have them.
                     </p>
                     <div class="stats">
                         <div class="stat-item">
@@ -231,10 +239,44 @@
         </div>
     </section>
 
+    <section id="life" style="background: var(--bg-elevated);">
+        <div class="container">
+            <div class="section-header fade-in">
+                <div class="section-label">05 / Beyond the Lab</div>
+                <h2 class="section-title">The rest of me</h2>
+                <p class="section-desc">
+                    I'm not just my research. Here's what I look like when I'm not wearing safety goggles.
+                </p>
+            </div>
+            <div class="life-grid">
+                <div class="life-card fade-in">
+                    <div class="life-image">
+                        <img src="photo-friends.jpg" alt="With my friend on the TTC">
+                    </div>
+                    <div class="life-content">
+                        <h3>With my people</h3>
+                        <p>My friend and I on the TTC, probably heading somewhere with good food. 
+                        I think the best part of any city is who you explore it with.</p>
+                    </div>
+                </div>
+                <div class="life-card fade-in">
+                    <div class="life-image">
+                        <img src="photo-cafe.jpg" alt="Matcha drinks and cookie">
+                    </div>
+                    <div class="life-content">
+                        <h3>Cafe culture</h3>
+                        <p>My ideal afternoon: a matcha latte, something sweet, and nowhere to be. 
+                        I've developed strong opinions about oat milk. I will not apologize.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section id="contact">
         <div class="container">
             <div class="section-header fade-in">
-                <div class="section-label">05 / Contact</div>
+                <div class="section-label">06 / Contact</div>
                 <h2 class="section-title">Let's talk</h2>
                 <p class="section-desc">
                     Have a research idea? Want to collaborate? Just want to argue about thermodynamics? I'm around.
